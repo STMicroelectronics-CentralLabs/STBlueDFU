@@ -1,0 +1,9 @@
+{
+  "name": "ST BlueDFU",
+  "integrations": {
+    "cordova": {}
+  },
+  "v2": true,
+  "typescript": true,
+  "pro_id": "com.st.STBlueDFU"
+}

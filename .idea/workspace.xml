@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a12523b7-623c-4e89-a93e-d04e0d123f16" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/ionic.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-50@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-72@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon-small@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/icon/icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/icon/icon@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-568h@2x~iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-568h@2x~iphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-667h.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-667h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-736h.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-736h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape-736h.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape-736h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@2x~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@2x~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait~ipad.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait~ipad.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/ios/splash/Default~iphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/ios/splash/Default~iphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFU_OTA/DFU_OTAService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFU_OTA/DFU_OTAService.ts" afterDir="false" />
+    </list>
+    <ignored path="STBlueOTA.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="STBlueOTA" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>-1</find>
+      <find>permission</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/pages/list/list.ts" />
+        <option value="$PROJECT_DIR$/www/fw_bin/blueOta.json" />
+        <option value="$PROJECT_DIR$/app/Common/bleOtaBinaries.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/tslint.json" />
+        <option value="$PROJECT_DIR$/platforms/android/build.gradle" />
+        <option value="$PROJECT_DIR$/platforms/android/gradle.properties" />
+        <option value="$PROJECT_DIR$/platforms/android/CordovaLib/build.gradle" />
+        <option value="$PROJECT_DIR$/platforms/android/CordovaLib/project.properties" />
+        <option value="$PROJECT_DIR$/src/Common/messages.ts" />
+        <option value="$PROJECT_DIR$/src/environments/enviroment.ts" />
+        <option value="$PROJECT_DIR$/src/Common/converters.ts" />
+        <option value="$PROJECT_DIR$/src/app/main.prod.ts" />
+        <option value="$PROJECT_DIR$/src/Common/utils.ts" />
+        <option value="$PROJECT_DIR$/src/pages/file-selection/basic.ts" />
+        <option value="$PROJECT_DIR$/src/pages/item-details/item-details.ts" />
+        <option value="$PROJECT_DIR$/www/assets/fw_bin/blueOta.json" />
+        <option value="$PROJECT_DIR$/src/pages/about-app/about-app.ts" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/src/pages/filesystem-selection/filesys_sel.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.html" />
+        <option value="$PROJECT_DIR$/src/manifest.json" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/Common/bleNode.ts" />
+        <option value="$PROJECT_DIR$/src/Common/bleOtaBinaries.ts" />
+        <option value="$PROJECT_DIR$/src/DFU_OTA/CRCCalc.ts" />
+        <option value="$PROJECT_DIR$/src/pages/file-selection/file_sel.ts" />
+        <option value="$PROJECT_DIR$/src/pages/filesystem-selection/filesys_sel.html" />
+        <option value="$PROJECT_DIR$/src/pages/item-details/char-details.ts" />
+        <option value="$PROJECT_DIR$/src/pages/item-details/item-details.html" />
+        <option value="$PROJECT_DIR$/src/pages/list/list.html" />
+        <option value="$PROJECT_DIR$/src/pages/list/list.ts" />
+        <option value="$PROJECT_DIR$/src/providers/firmware-manager.ts" />
+        <option value="$PROJECT_DIR$/src/pages/device-list/device-list.ts" />
+        <option value="$PROJECT_DIR$/src/DFU_OTA/otaStatus.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/assets/fw_bin/blueOta.json" />
+        <option value="$PROJECT_DIR$/src/pages/ota-details/ota-details.ts" />
+        <option value="$PROJECT_DIR$/src/providers/messages-manager.ts" />
+        <option value="$PROJECT_DIR$/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/pages/device-list/device-list.html" />
+        <option value="$PROJECT_DIR$/src/pages/ota-details/ota-details.scss" />
+        <option value="$PROJECT_DIR$/src/pages/about-app/about-app.html" />
+        <option value="$PROJECT_DIR$/src/pages/file-selection/file_sel.html" />
+        <option value="$PROJECT_DIR$/src/pages/ota-details/ota-details.html" />
+        <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/src/DFU_OTA/DFU_OTAService.ts" />
+        <option value="$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/.tmp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="731" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ST_BlueOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ST_BlueOTA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ST_BlueOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ST_BlueOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ST_BlueOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ST_BlueOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ST_BlueOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ST_BlueOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ST_BlueOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ST_BlueOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ST_BlueOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ST_BlueOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DFU_OTA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ST_BlueOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ST_BlueOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ST_BlueOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ST_BlueOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="file-selection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ST_BlueOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ST_BlueOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="filesystem-selection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ST_BlueOTA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ST_BlueOTA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="ota-details" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="nodejs_interpreter_path" value="C:\Program Files\nodejs\node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platforms/android" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/platforms/android/res/drawable-port-xxxhdpi" />
+      <recent name="$PROJECT_DIR$/platforms/android/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi" />
+      <recent name="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi" />
+      <recent name="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="false" name="RunAndroid" type="PhoneGap" factoryName="PhoneGap/Cordova">
+      <option name="myExecutable" value="C:\Users\Claudio Iozzia\AppData\Roaming\npm\ionic.cmd" />
+      <option name="myWorkDir" value="$PROJECT_DIR$" />
+      <option name="myCommand" value="run" />
+      <option name="myPassParent" value="true" />
+      <option name="myPlatform" value="android" />
+      <option name="myExtraArgs" value="" />
+      <option name="hasTarget" value="false" />
+      <option name="target" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhoneGap" factoryName="PhoneGap/Cordova">
+      <option name="myExecutable" />
+      <option name="myWorkDir" />
+      <option name="myCommand" />
+      <option name="myPassParent" value="true" />
+      <option name="myPlatform" />
+      <option name="myExtraArgs" />
+      <option name="hasTarget" value="false" />
+      <option name="target" />
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Claudio Iozzia\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a12523b7-623c-4e89-a93e-d04e0d123f16" name="Default" comment="" />
+      <created>1461250885101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1461250885101</updated>
+      <workItem from="1461250886651" duration="538000" />
+      <workItem from="1462806166663" duration="69000" />
+      <workItem from="1463754215705" duration="19000" />
+      <workItem from="1463760693718" duration="45000" />
+      <workItem from="1463985064245" duration="13392000" />
+      <workItem from="1464006002511" duration="778000" />
+      <workItem from="1464007250219" duration="3121000" />
+      <workItem from="1464011680784" duration="40893000" />
+      <workItem from="1464263690575" duration="52685000" />
+      <workItem from="1464699789844" duration="8317000" />
+      <workItem from="1469611648332" duration="224000" />
+      <workItem from="1469718656168" duration="38104000" />
+      <workItem from="1471504738229" duration="98719000" />
+      <workItem from="1474385338606" duration="429000" />
+      <workItem from="1474442414239" duration="47253000" />
+      <workItem from="1475576006248" duration="170000" />
+      <workItem from="1476947135976" duration="4878000" />
+      <workItem from="1477295721462" duration="11981000" />
+      <workItem from="1479477659587" duration="688000" />
+      <workItem from="1479480388266" duration="56438000" />
+      <workItem from="1480331883287" duration="1851000" />
+      <workItem from="1480338964476" duration="3537000" />
+      <workItem from="1480405803774" duration="31000" />
+      <workItem from="1480405870156" duration="106054000" />
+      <workItem from="1481276224417" duration="37693000" />
+    </task>
+    <task id="LOCAL-00001" summary="First alpha version running on both! ios and Android yeah!">
+      <created>1464268729052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1464268729052</updated>
+    </task>
+    <task id="LOCAL-00002" summary="alpha version 0.0.1 -&gt; implement new protocol 1.2">
+      <created>1464356518991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1464356518991</updated>
+    </task>
+    <task id="LOCAL-00003" summary="alpha version 0.0.1 -&gt;before upgrade ionic and angular to new beta">
+      <created>1464701373063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1464701373063</updated>
+    </task>
+    <task id="LOCAL-00004" summary="alpha version 0.0.1 -&gt;after upgrade ionic and angular to new ionic beta 10">
+      <created>1469793371149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1469793371149</updated>
+    </task>
+    <task id="LOCAL-00005" summary="alpha version 0.0.1 -&gt;after upgrade ionic and angular to new ionic beta 10 second">
+      <created>1469798530290</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1469798530290</updated>
+    </task>
+    <task id="LOCAL-00006" summary="alpha version 0.0.1 -&gt;after upgrade ionic and angular to new ionic beta 10 second">
+      <created>1469798593292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1469798593292</updated>
+    </task>
+    <task id="LOCAL-00007" summary="alpha version 0.0.1 -&gt;after upgrade ionic and angular to new ionic beta 10 third">
+      <created>1470389106704</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1470389106704</updated>
+    </task>
+    <task id="LOCAL-00008" summary="alpha version 0.0.1 update web storm">
+      <created>1471504938432</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1471504938432</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.0.1  alpha version added support for local .bin support">
+      <created>1472218911933</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1472218911933</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1.0.2 alpha version support for protocol 1.2 build android and ios">
+      <created>1475575481570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1475575481570</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1.0.2 alpha version added file .bin and added intent filter for android">
+      <created>1476954721968</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1476954721968</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1.0.2 alpha version enabled rotation for ios and added filter ota service for ble scan (available only for android &gt;= 5)">
+      <created>1479398173077</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1479398173077</updated>
+    </task>
+    <task id="LOCAL-00013" summary="1.0.2 alpha version enabled rotation for ios and added filter ota service for ble scan (available only for android &gt;= 5) rebuild only apk">
+      <created>1479399299711</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1479399299711</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1.0.2 before update with last ionic framework">
+      <created>1479714668354</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1479714668354</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1.0.2 after after update with last ionic framework">
+      <created>1479716802434</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1479716802434</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1.0.2 change binaries and start messages manager">
+      <created>1480504612891</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1480504612891</updated>
+    </task>
+    <task id="LOCAL-00017" summary="1.0.2 fixed message behavioral">
+      <created>1480581771841</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1480581771841</updated>
+    </task>
+    <task id="LOCAL-00018" summary="1.0.2 added firmware manager first draft">
+      <created>1480679195033</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1480679195033</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1.0.2 some code refactorin and removed some unsed import">
+      <created>1480689230786</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1480689230786</updated>
+    </task>
+    <task id="LOCAL-00020" summary="1.0.2 added fw and mex manager files (missed)">
+      <created>1480689358680</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1480689358680</updated>
+    </task>
+    <task id="LOCAL-00021" summary="1.0.3 added local fw db and solved some issues on db firmware update. Solved issue on messages the first will be shown twice, added progress bar on db fw download">
+      <created>1481109358575</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1481109358575</updated>
+    </task>
+    <task id="LOCAL-00022" summary="1.0.3 about update, move some command in left menu items">
+      <created>1481119249465</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1481119249465</updated>
+    </task>
+    <task id="LOCAL-00023" summary="1.0.3 rebuild for ios and android">
+      <created>1481124795477</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1481124795477</updated>
+    </task>
+    <task id="LOCAL-00024" summary="1.0.2 clean code (remove some unused code) removed commented code, added icons, remove slider for window rebuild for ios and android">
+      <created>1481279311654</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1481279311654</updated>
+    </task>
+    <task id="LOCAL-00025" summary="1.0.4 remove www from code">
+      <created>1481279516506</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1481279516506</updated>
+    </task>
+    <task id="LOCAL-00026" summary="1.0.4 update splash screen">
+      <created>1481281142127</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1481281142127</updated>
+    </task>
+    <task id="LOCAL-00027" summary="1.0.4 update binary and download server to amazonaws">
+      <created>1481634090896</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1481634090896</updated>
+    </task>
+    <task id="LOCAL-00028" summary="1.0.4 update binary db and some ui component (about and ota details)">
+      <created>1481797460480</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1481797460481</updated>
+    </task>
+    <task id="LOCAL-00029" summary="1.0.5 prebuild for test">
+      <created>1481799079179</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1481799079180</updated>
+    </task>
+    <task id="LOCAL-00030" summary="1.0.6 build for publish">
+      <created>1481800969337</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1481800969337</updated>
+    </task>
+    <task id="LOCAL-00031" summary="1.0.6 application id re-updated">
+      <created>1481801037926</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1481801037926</updated>
+    </task>
+    <task id="LOCAL-00032" summary="1.0.6 some ui update before compile for publish">
+      <created>1481876340489</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1481876340489</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="527907000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="731" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50555557" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290653" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908162" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49444443" weight="0.27760252" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4724689" visible="true" weight="0.2996769" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" sideWeight="0.5133215" side_tool="true" weight="0.4898374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Captures" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Gulp" order="2" sideWeight="0.5275311" side_tool="true" weight="0.29386893" />
+      <window_info anchor="bottom" id="TypeScript Compiler" order="7" weight="0.09478022" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Nl-Palette" order="3" />
+      <window_info anchor="bottom" id="TypeScript" order="7" weight="0.3290653" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32967034" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.27912933" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18534179" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript Compiler" order="7" weight="0.09478022" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908162" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49444443" visible="true" weight="0.3602837" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50555557" side_tool="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.27943262" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32967034" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/app/main.prod.js.map" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/app/app.module.js.map" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/app/app.component.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/app/app.module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/app/app.component.js.map" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/app/app.module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/app/app.component.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/app/app.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/app/app.module.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/app/main.prod.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/Common/bleOtaBinaries.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/Common/bleNode.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/Common/converters.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/Common/bleOtaBinaries.js.map" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/Common/converters.js.map" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/Common/bleNode.js.map" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/DFU_OTA/bleOtaDefine.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/DFU_OTA/DFU_OTAService.js.map" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/DFU_OTA/DFU_OTAService.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/DFU_OTA/otaStatus.js.map" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/DFU_OTA/CRCCalc.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/DFU_OTA/otaStatus.js" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/DFU_OTA/bleOtaDefine.js.map" />
+        <option value="$PROJECT_DIR$/../STBlueTest/.tmp/DFU_OTA/CRCCalc.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/app/main.prod.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/app/app.module.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/app/app.component.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/app/app.module.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/app/app.component.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/app/app.module.ngfactory.js" />
+        <option value="$PROJECT_DIR$/.tmp/app/app.component.js" />
+        <option value="$PROJECT_DIR$/.tmp/app/app.component.ngfactory.js" />
+        <option value="$PROJECT_DIR$/.tmp/app/app.module.js" />
+        <option value="$PROJECT_DIR$/.tmp/app/main.prod.js" />
+        <option value="$PROJECT_DIR$/.tmp/Common/bleOtaBinaries.js" />
+        <option value="$PROJECT_DIR$/.tmp/Common/bleNode.js" />
+        <option value="$PROJECT_DIR$/.tmp/Common/utils.js" />
+        <option value="$PROJECT_DIR$/.tmp/Common/utils.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/Common/bleOtaBinaries.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/Common/bleNode.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/DFU_OTA/bleOtaDefine.js" />
+        <option value="$PROJECT_DIR$/.tmp/DFU_OTA/DFU_OTAService.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/DFU_OTA/DFU_OTAService.js" />
+        <option value="$PROJECT_DIR$/.tmp/DFU_OTA/otaStatus.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/DFU_OTA/CRCCalc.js" />
+        <option value="$PROJECT_DIR$/.tmp/DFU_OTA/otaStatus.js" />
+        <option value="$PROJECT_DIR$/.tmp/DFU_OTA/bleOtaDefine.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/DFU_OTA/CRCCalc.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/providers/messages-manager.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/providers/messages-manager.js" />
+        <option value="$PROJECT_DIR$/.tmp/providers/firmware-manager.js" />
+        <option value="$PROJECT_DIR$/.tmp/providers/firmware-manager.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/environments/environment.js" />
+        <option value="$PROJECT_DIR$/.tmp/environments/environment.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/pages/about-app/about-app.ngfactory.js" />
+        <option value="$PROJECT_DIR$/.tmp/pages/about-app/about-app.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/pages/about-app/about-app.js" />
+        <option value="$PROJECT_DIR$/.tmp/pages/about-app/about-app.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/pages/device-list/device-list.ngfactory.js" />
+        <option value="$PROJECT_DIR$/.tmp/pages/device-list/device-list.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/pages/device-list/device-list.js" />
+        <option value="$PROJECT_DIR$/.tmp/pages/device-list/device-list.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/pages/ota-details/ota-details.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/pages/ota-details/ota-details.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/pages/ota-details/ota-details.js" />
+        <option value="$PROJECT_DIR$/.tmp/pages/ota-details/ota-details.ngfactory.js" />
+        <option value="$PROJECT_DIR$/.tmp/pages/file-selection/file_sel.ngfactory.js" />
+        <option value="$PROJECT_DIR$/.tmp/pages/file-selection/file_sel.js" />
+        <option value="$PROJECT_DIR$/.tmp/pages/file-selection/file_sel.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/pages/file-selection/file_sel.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/pages/filesystem-selection/filesys_sel.ngfactory.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/pages/filesystem-selection/filesys_sel.ngfactory.js" />
+        <option value="$PROJECT_DIR$/.tmp/pages/filesystem-selection/filesys_sel.js.map" />
+        <option value="$PROJECT_DIR$/.tmp/pages/filesystem-selection/filesys_sel.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="alpha version 0.0.1 update web storm" />
+    <MESSAGE value="1.0.1  alpha version added support for local .bin support" />
+    <MESSAGE value="1.0.2 alpha version support for protocol 1.2 build android and ios" />
+    <MESSAGE value="1.0.2 alpha version added file .bin and added intent filter for android" />
+    <MESSAGE value="1.0.2 alpha version enabled rotation for ios and added filter ota service for ble scan (available only for android &gt;= 5)" />
+    <MESSAGE value="1.0.2 alpha version enabled rotation for ios and added filter ota service for ble scan (available only for android &gt;= 5) rebuild only apk" />
+    <MESSAGE value="1.0.2 before update with last ionic framework" />
+    <MESSAGE value="1.0.2 after after update with last ionic framework" />
+    <MESSAGE value="1.0.2 change binaries and start messages manager" />
+    <MESSAGE value="1.0.2 fixed message behavioral" />
+    <MESSAGE value="1.0.2 added firmware manager first draft" />
+    <MESSAGE value="1.0.2 some code refactorin and removed some unsed import" />
+    <MESSAGE value="1.0.2 added fw and mex manager files (missed)" />
+    <MESSAGE value="1.0.3 added local fw db and solved some issues on db firmware update. Solved issue on messages the first will be shown twice, added progress bar on db fw download" />
+    <MESSAGE value="1.0.3 about update, move some command in left menu items" />
+    <MESSAGE value="1.0.3 rebuild for ios and android" />
+    <MESSAGE value="1.0.2 clean code (remove some unused code) removed commented code, added icons, remove slider for window rebuild for ios and android" />
+    <MESSAGE value="1.0.4 remove www from code" />
+    <MESSAGE value="1.0.4 update splash screen" />
+    <MESSAGE value="1.0.4 update binary and download server to amazonaws" />
+    <MESSAGE value="1.0.4 update binary db and some ui component (about and ota details)" />
+    <MESSAGE value="1.0.5 prebuild for test" />
+    <MESSAGE value="1.0.6 build for publish" />
+    <MESSAGE value="1.0.6 application id re-updated" />
+    <MESSAGE value="1.0.6 some ui update before compile for publish" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.6 some ui update before compile for publish" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Common/bleOtaBinaries.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFU_OTA/CRCCalc.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-410">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/file-selection/basic.ts" />
+    <entry file="file://$PROJECT_DIR$/src/pages/item-details/item-details.scss" />
+    <entry file="file://$PROJECT_DIR$/src/providers/firmware-manager.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/item-details/char-details.html" />
+    <entry file="file://$PROJECT_DIR$/src/pages/item-details/char-details.ts" />
+    <entry file="file://$PROJECT_DIR$/src/pages/item-details/item-details.html" />
+    <entry file="file://$PROJECT_DIR$/src/pages/item-details/item-details.ts" />
+    <entry file="file://$PROJECT_DIR$/src/pages/device-list/device-list.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2505">
+          <caret line="175" column="33" selection-start-line="175" selection-start-column="33" selection-end-line="175" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFU_OTA/bleOtaDefine.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFU_OTA/otaStatus.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/splash.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" />
+    <entry file="file://$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" />
+    <entry file="file://$PROJECT_DIR$/platforms/ios/ST BlueDFU/Images.xcassets/LaunchImage.launchimage/Default-Landscape@2x~ipad.png" />
+    <entry file="file://$PROJECT_DIR$/platforms/ios/ST BlueDFU/Images.xcassets/LaunchImage.launchimage/Default-667h.png" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/providers/messages-manager.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/fw_bin/blueOta.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="91" column="79" selection-start-line="91" selection-start-column="79" selection-end-line="91" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/filesystem-selection/filesys_sel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/device-list/device-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/file-selection/file_sel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/ota-details/ota-details.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/device-list/device-list.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about-app/about-app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about-app/about-app.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/ota-details/ota-details.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about-app/about-app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="11" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic.config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DFU_OTA/DFU_OTAService.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="507" column="67" selection-start-line="507" selection-start-column="67" selection-end-line="507" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/main.dev.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/build/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/icon/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Common/utils.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Common/bleNode.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/ota-details/ota-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/file-selection/file_sel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/filesystem-selection/filesys_sel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-669">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>STBlueOTA</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

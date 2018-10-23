@@ -1,0 +1,39 @@
+<ion-header>
+<ion-navbar >
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>BLE Device List</ion-title>
+</ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-refresher  (ionRefresh)="doRefresh($event)"  >
+      <ion-refresher-content
+        pullingIcon="arrow-dropdown"
+        pullingText="Pull to refresh"
+        refreshingSpinner="circles"
+        refreshingText="Refreshing...">
+      </ion-refresher-content>
+    </ion-refresher>
+
+    <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
+        <ion-icon name='bluetooth' item-left class="item-note"></ion-icon>
+        <p [ngStyle]="{'font-size':'1.3em' }"><b>{{item.friendlyName}}</b></p>
+        <p>{{"Address: " + item.id}}</p>
+        <p [ngStyle]="{color:'blue', 'font-size':'0.9em', 'font-style': 'oblique'}" >{{"Power: "+ item.txPower +" dBm " +"RSSI: " + item.rssi + " dBm"}}</p>
+        <ion-icon name='download' item-right *ngIf="(item.connectedState) && (item.otaService != null)" ></ion-icon>
+
+        <ion-icon *ngIf="item.connectedState" class="item-note" item-right name='done-all'></ion-icon>
+
+    </button>
+  </ion-list>
+  <div *ngIf="selectedItem" padding>
+    You navigated here from <b>{{selectedItem.friendlyName}}</b>
+  </div>
+    <ion-fab bottom right>
+        <button ion-fab color="primary" (click)="onClickFloatActionBtn($event)"><ion-icon name='play'></ion-icon></button>
+    </ion-fab>
+
+</ion-content>

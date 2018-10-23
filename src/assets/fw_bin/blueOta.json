@@ -1,0 +1,9 @@
+{
+    "Name": "ST BlueNRG OTA",
+    "Version": 1,
+    "BasePath": "",
+    "Binaries": [
+        {"Target":"STEVAL-WESU1", "Name":"WeSU Demo", "Version":"1.1.0", "Description":"Full firmware version for STEVAL-WESU1", "Type":"bin", "File":"WESU_DEMO_1.1.0.bin", "BaseAddress":134348800, "RestartCommand":0, "FileSize":173873, "md5":"4356328fcc4deb52ade2a22dcfe34836" },
+        {"Target":"STEVAL-WESU1", "Name":"Sensor Read Demo", "Version":"1.1.0", "Description":"Accelerometer sensor read demo for STEVAL-WESU1", "Type":"bin", "File":"WESU_SENSOR_READ_1.1.0.bin", "BaseAddress":134348800, "RestartCommand":0, "FileSize":64548, "md5":"9399126b4a5249c209a7e520d25de0b8" }
+     ]
+}

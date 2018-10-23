@@ -1,0 +1,23 @@
+<ion-header>
+<ion-navbar >
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>About</ion-title>
+</ion-navbar>
+</ion-header>
+
+<ion-content padding class="getting-started">
+    <ion-list>
+        <ion-item>
+            <ion-thumbnail item-left><img src="assets/icon/icon.png" /></ion-thumbnail>
+            <h1><b>{{appName}}</b></h1>
+            Version: {{versionNumber}} - ({{versionCode}})
+               <p></p>
+        </ion-item>
+    </ion-list>
+    <h2>Firmware DB</h2>
+    <small>{{otaDB.otaDb.Name}}<br/>
+        Version: {{otaDB.otaDb.Version}}</small>
+    <p>&copy; Copyright 2016 <a href="http:\\www.st.com">STMicroelectronics</a></p>
+</ion-content>

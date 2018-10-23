@@ -1,0 +1,26 @@
+<ion-header>
+<ion-navbar >
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>File selection</ion-title>
+
+</ion-navbar>
+</ion-header>
+
+<ion-content>
+
+
+    <ion-list *ngIf="otaManager.otaDb">
+    <button ion-item *ngFor="let item of otaManager.otaDb.Binaries" (click)="itemTapped($event, item)">
+      <ion-icon name='document' item-left ></ion-icon>
+        <p [ngStyle]="{'font-size':'1.3em' }"><b>{{item.Name}}</b> </p>
+        <p>Firmware ver: {{item.Version}}</p>
+        <p [ngStyle]="{ 'font-style': 'oblique'}" >Target device: {{item.Target}}</p>
+        <p [ngStyle]="{color:'blue', 'font-size':'1.1em', 'font-style': 'oblique'}" >{{item.Description }}</p>
+        <p><small>{{"Address: 0x" + toHex(item.BaseAddress) + " (Size: " + item.FileSize + ") "}}</small></p>
+        <p><small>{{"md5: " + item.md5}}</small></p>
+
+    </button>
+  </ion-list>
+</ion-content>

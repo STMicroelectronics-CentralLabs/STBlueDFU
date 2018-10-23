@@ -1,0 +1,23 @@
+<ion-header>
+<ion-navbar >
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>File selection</ion-title>
+</ion-navbar>
+</ion-header>
+
+<ion-content>
+
+    <button *ngIf="relativePath.length > 1"(click)="btnNavigateUp($event)"><ion-icon name='undo' item-left ></ion-icon>Parent</button>
+
+    <ion-list *ngIf="filesEntries">
+        <button ion-item *ngFor="let item of filesEntries" (click)="itemTapped($event, item)">
+            <ion-icon *ngIf="item.isFile" name='document' item-left ></ion-icon>
+            <ion-icon *ngIf="item.isDirectory" name='folder' item-left ></ion-icon>
+            <p [ngStyle]="{'font-size':'1.1em' }"><b>{{item.name}}</b> </p>
+
+        </button>
+    </ion-list>
+
+</ion-content>

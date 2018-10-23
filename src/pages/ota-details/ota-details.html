@@ -1,0 +1,57 @@
+<ion-header>
+<ion-navbar >
+  <button menuToggle *ngIf="!connectedNodes">
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>DFU OTA Details</ion-title>
+</ion-navbar>
+</ion-header>
+
+<ion-content  >
+    <p [ngStyle]="{'font-size':'1.1em'}">File name: <b>{{otaBinaryFile.Name}}</b>  ver: {{otaBinaryFile.Version}}</p>
+        <p>{{"Address: " + ((otaBinaryFile.BaseAddress < 0) ? "default" : "0x" + toHexString(otaBinaryFile.BaseAddress)) + " (Size: " + otaBinaryFile.FileSize + ") "}}</p>
+
+        <ion-card  *ngFor="let item of connectedNodes">
+
+            <ion-item [ngStyle]="{'font-size':'1.3em', 'margin':'5px', 'padding':'0px'}" (click)="getDeviceImage($event, item)">
+                <b>{{item.friendlyName}}</b>
+                <ion-thumbnail item-right>
+                    <button ion-button large icon-right clear (click)="stopRemove($event, item)">
+                        <!--<small>{{item.otaService.mOtaStatus ? "stop":"close" }}</small>-->
+                        <ion-icon name='close'></ion-icon>
+                    </button>
+                </ion-thumbnail>
+            </ion-item>
+
+            <ion-card-content>
+
+
+                <p>Memory [0x{{toHexString(item.otaService.LowerBound)}} - 0x{{toHexString(item.otaService.UpperBound)}}]<br/>
+                    OTA Protocol ver: {{(item.otaService.mProtocolVer) ? (item.otaService.mProtocolVer / 16).toFixed() + "." + (item.otaService.mProtocolVer % 16) :"1.1" }}</p>
+         <div *ngIf="item.otaService.mOtaStatus" [ngStyle]="{'text-align':'left'}">
+             <p>State   : {{item.otaService.mOtaStatus.state}} </p>
+             <p>Percent : {{(item.otaService.mOtaStatus.progress * 100).toFixed(0).toString() + " %"}} </p>
+             <p>Elapsed : {{(item.otaService.mOtaStatus.timeElapsed)}} / (Remain: {{(item.otaService.mOtaStatus.timeExpected)}})</p>
+             <p>Retries : {{item.otaService.mOtaStatus.retries}} </p>
+             <p [ngStyle]="{'font-size':'1.1em'}" *ngIf ="item.otaService.mOtaError">{{item.otaService.mOtaError}} </p>
+
+
+         </div>
+            <div *ngIf="item.otaService.mOtaAvailableDeviceImages && (item.otaService.mOtaAvailableDeviceImages.length > 0)">
+            <ion-card *ngFor="let img of item.otaService.mOtaAvailableDeviceImages" (click)="runSelectedItemImage($event, item, img)"  [ngStyle]="{'text-align':'left'}">
+                <ion-card-content>
+                <ion-card-title [ngStyle]="{'font-size':'0.8em'}" >Name     :{{img.name}} </ion-card-title>
+                <p>Address   :0x{{toHexString(img.startAddress)}} <br>
+                    Version   :{{img.version}} </p>
+                </ion-card-content>
+            </ion-card>
+            </div>
+
+            </ion-card-content>
+        </ion-card>
+
+
+    <ion-fab bottom right>
+        <button ion-fab color="primary" (click)="fwUpload($event)"><ion-icon name='code-download'></ion-icon></button>
+    </ion-fab>
+</ion-content>
