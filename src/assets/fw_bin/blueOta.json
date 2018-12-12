@@ -1,9 +1,12 @@
 {
     "Name": "ST BlueNRG OTA",
-    "Version": 1,
+    "Version": 2,
     "BasePath": "",
     "Binaries": [
-        {"Target":"STEVAL-WESU1", "Name":"WeSU Demo", "Version":"1.1.0", "Description":"Full firmware version for STEVAL-WESU1", "Type":"bin", "File":"WESU_DEMO_1.1.0.bin", "BaseAddress":134348800, "RestartCommand":0, "FileSize":173873, "md5":"4356328fcc4deb52ade2a22dcfe34836" },
-        {"Target":"STEVAL-WESU1", "Name":"Sensor Read Demo", "Version":"1.1.0", "Description":"Accelerometer sensor read demo for STEVAL-WESU1", "Type":"bin", "File":"WESU_SENSOR_READ_1.1.0.bin", "BaseAddress":134348800, "RestartCommand":0, "FileSize":64548, "md5":"9399126b4a5249c209a7e520d25de0b8" }
+        {"Target":"STEVAL-WESU1", "Name":"WeSU Demo", "Version":"1.1.0", "Description":"Full firmware version for STEVAL-WESU1", "Type":"bin", "File":"WESU_DEMO_1.1.0.bin", "BaseAddress":134348800, "RestartCommand":0, "FileSize":174117, "md5":"2581a44bf4f6d425b9a7d5004430f01e" },
+        {"Target":"STEVAL-WESU1", "Name":"Sensor Read Demo", "Version":"1.1.0", "Description":"Accelerometer sensor read demo for STEVAL-WESU1", "Type":"bin", "File":"WESU_SENSOR_READ_1.1.0.bin", "BaseAddress":134348800, "RestartCommand":0, "FileSize":64548, "md5":"9399126b4a5249c209a7e520d25de0b8" },
+{"Target":"BlueNRG1", "Name":"BLE SensorDemo", "Version":"3.0.0", "Description":"BLE SensorDemo Use OTA ServiceManager", "Type":"bin", "File":"BlueNRG1_BLE_SensorDemo_Use_OTA_ServiceManager_v300.bin", "BaseAddress":-1, "RestartCommand":0, "FileSize":73444, "md5":"1f94523c86f80bcbf43425b234d9a31f" },
+{"Target":"BlueNRG2", "Name":"BLE SensorDemo", "Version":"3.0.0", "Description":"BLE SensorDemo Use OTA ServiceManager", "Type":"bin", "File":"BlueNRG2_BLE_SensorDemo_Use_OTA_ServiceManager_v300.bin", "BaseAddress":-1, "RestartCommand":0, "FileSize":73548, "md5":"17f2cd4a162e76576ea4fd9ffd21ac7a" }
+
      ]
 }

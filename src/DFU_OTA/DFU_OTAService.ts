@@ -36,8 +36,12 @@
  */
 
 import {BleNode, BleChar} from '../Common/bleNode';
+import { Platform } from 'ionic-angular';
 import {OTA_State, OtaService, OtaChars, FlashErrorCode} from './bleOtaDefine';
-import {BLE} from 'ionic-native';
+//import {BLE} from 'ionic-native';
+import { BLE } from '@ionic-native/ble';
+//import { ble as BLE } from '@ionic-native/ble'
+//import {ble as BLE } from 'cordova-plugin-ble-central/BLE'
 import {Observable} from "rxjs/Observable";
 import {OtaStatus, OtaDeviceImage} from "./otaStatus";
 import {CRCCalc} from "./CRCCalc";
@@ -45,6 +49,12 @@ import {Convert} from "../Common/utils";
 import {Observer} from "rxjs/Observer";
     
 export class DFU_OTAService {
+
+    private static readonly EXTENDED_PACKAGE_LENGTH:number = 217 //220-3
+    private static readonly PACKAGE_LENGTH:number = 16
+    private static readonly HEADER_LENGTH:number = 4
+
+    private mDataLength = DFU_OTAService.PACKAGE_LENGTH
 
     private mOTA_State:OTA_State = OTA_State.IDLE;
     private mLowerBound:number = -1;
@@ -103,7 +113,9 @@ export class DFU_OTAService {
 
     private deviceReady():boolean { return ((this.mLowerBound != -1) && (this.mUpperBound != -1));}
 
-    constructor(private mNode:BleNode){
+    private ble:BLE = new BLE()
+
+    constructor(private mNode:BleNode,private platform:Platform){
         this.mLowerBound = -1;
         this.mUpperBound = -1;
         this.mTimeStart = new Date();
@@ -119,7 +131,7 @@ export class DFU_OTAService {
 
     public readImageParam():void {
         console.log("ReadParameter");
-        BLE.read(this.mNode.id, OtaService.OTA_SERVICE.toString(),  OtaChars.DFU_OTA_IMAGE.toString()).then(
+        this.ble.read(this.mNode.id, OtaService.OTA_SERVICE.toString(),  OtaChars.DFU_OTA_IMAGE.toString()).then(
             value =>{
                  if (value.byteLength >= 8)
                  {
@@ -208,7 +220,7 @@ export class DFU_OTAService {
                     //send data to the device info image
                     this.sendNewImagePacket(this.mImageSize, this.mBaseAddress, this.mCrcDataSend, (this.mRestartCmd <= 3) ? this.mRestartCmd : 0).then(
                         ()=>{
-                            BLE.startNotification(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_EXPECTED_IMAGE_TU_SEQNUM.toString()).subscribe(
+                            this.ble.startNotification(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_EXPECTED_IMAGE_TU_SEQNUM.toString()).subscribe(
                                 buffer => {
                                     console.log("Read next image " + buffer.byteLength);
 
@@ -224,8 +236,30 @@ export class DFU_OTAService {
                                     if (errorCode == 0)
                                         this.mLastSequenceSent = this.mLastSequenceSending;
 
+                                    if(errorCode == 0xF0){
+                                        if(nextSequence == 0){
+                                            this.mDataLength = Math.floor(DFU_OTAService.EXTENDED_PACKAGE_LENGTH / DFU_OTAService.PACKAGE_LENGTH)*DFU_OTAService.PACKAGE_LENGTH
+                                            this.mTotalSequences = Math.ceil(newImage.byteLength / this.mDataLength); //16 bytes each packet
+                                            console.log("CHANGE DATA LENGTH: "+this.mDataLength );
+                                            console.log("Platform: "+this.platform);
+                                            if(this.platform.is("android")){
+                                                this.ble.requestMtu(this.mNode.id,DFU_OTAService.EXTENDED_PACKAGE_LENGTH)
+                                                //add a delay since the callback is done when the request is sent end not
+                                                //when is received
+                                                .then(() => new Promise(resolve => setTimeout(resolve, 1000)))
+                                                .then(() => {
+                                                          console.log('MTU Size Accepted');
+                                                          this.sendImageSequence(nextSequence);
+                                                        }, error => {
+                                                          console.log('MTU Size Failed');
+                                                        });
+                                            }else{
+                                                this.sendImageSequence(nextSequence);
+                                            }
 
-                                    if ((errorCode == 0xF0) || (errorCode == 0x0F)){ //Sequence error
+                                        }
+
+                                    }else if ((errorCode == 0x0F)){ //Sequence error
                                         console.log("OTA Sequence error next " + nextSequence  + " current " + this.mLastSequenceSending);
                                         this.sendImageSequence(nextSequence);
                                     }
@@ -265,7 +299,7 @@ export class DFU_OTAService {
                                         }
                                     }
 
-                                    observer.next(new OtaStatus((this.mLastSequenceSent +1) * 16, this.mImageSize, this.TimeElapsed, this.mOTA_State, this.mSequenceRepeat));
+                                    observer.next(new OtaStatus((this.mLastSequenceSent +1) * this.mDataLength, this.mImageSize, this.TimeElapsed, this.mOTA_State, this.mSequenceRepeat));
 
                                     if ((this.mOTA_State == OTA_State.ERROR) )
                                     {
@@ -305,7 +339,7 @@ export class DFU_OTAService {
     private stopNotifyExpectedImage(obs:Observer<any>, strMex:string=null): void{
         console.log("stop notify  " + (strMex? strMex : "no stop message"));
         //error frame format
-        BLE.stopNotification(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_EXPECTED_IMAGE_TU_SEQNUM.toString()).then(
+        this.ble.stopNotification(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_EXPECTED_IMAGE_TU_SEQNUM.toString()).then(
             ()=> {
                 if (strMex == null)
                     obs.complete();
@@ -361,7 +395,7 @@ export class DFU_OTAService {
 
         console.log("buffer image and size " + Convert.toString(infoNewImage.buffer) + " size " + infoNewImage.byteLength);
 
-        return BLE.write(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_NEW_IMAGE.toString(), infoNewImage.buffer);
+        return this.ble.write(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_NEW_IMAGE.toString(), infoNewImage.buffer);
     }
 
     public startFWAddress(address:number):void {
@@ -386,7 +420,7 @@ export class DFU_OTAService {
 
 
     private readNextAvailable(obs :Observer<OtaDeviceImage>){
-        BLE.read(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_NEW_IMAGE.toString()).then(
+        this.ble.read(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_NEW_IMAGE.toString()).then(
             buffer => {
 
                 console.log("Read next runnable image  " + buffer.byteLength);
@@ -478,7 +512,7 @@ export class DFU_OTAService {
         bufView.setUint16(18, -1, true);
         bufView.setUint8(0, DFU_OTAService.checkSum(new Uint8Array(bufView.buffer), 1));
 
-        BLE.write(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_NEW_IMAGE_TU_CONTENT.toString(), bufView.buffer).then(
+        this.ble.write(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_NEW_IMAGE_TU_CONTENT.toString(), bufView.buffer).then(
             (result)=>{ console.log("Send CRC result" + result);},
             (reject)=>{
                 console.log("Send CRC reject" + reject);
@@ -489,28 +523,28 @@ export class DFU_OTAService {
 
     private sendImageSequence(seqToSend:number):boolean{
         let retVal:boolean = false;
-        let startPosition:number = seqToSend * 16;
+        let startPosition:number = seqToSend * this.mDataLength;
 
         if (startPosition < this.imageToSend.byteLength) {
             if (seqToSend <= this.mLastSequenceSending)
                 this.mSequenceRepeat++;
             this.mLastSequenceSending = seqToSend;
 
+            let frameLength = DFU_OTAService.HEADER_LENGTH + this.mDataLength
+            let frame:Uint8Array = new Uint8Array(frameLength);
 
-            let frame:Uint8Array = new Uint8Array(20);
-
-            let imageSeq:Uint8Array = this.imageToSend.subarray(startPosition, startPosition + Math.min(16, this.imageToSend.byteLength - startPosition));
+            let imageSeq:Uint8Array = this.imageToSend.subarray(startPosition, startPosition + Math.min(this.mDataLength, this.imageToSend.byteLength - startPosition));
             frame.set(imageSeq, 1);
 
             let bufView:DataView = new DataView(frame.buffer);
  ///           bufView.setInt8(17, -1);
             let needAck = (((seqToSend + 1) % this.mGroupSequenceWaitFeedback) == 0) ? 1:0;
             console.log("need ACK? = " + (needAck != 0) + " seq Num " + seqToSend + " notification window" + this.mGroupSequenceWaitFeedback);
-            bufView.setInt8(17,  needAck);
-            bufView.setUint16(18, seqToSend, true);
+            bufView.setInt8(frameLength-3,  needAck);
+            bufView.setUint16(frameLength-2, seqToSend, true);
             bufView.setUint8(0, DFU_OTAService.checkSum(new Uint8Array(bufView.buffer), 1));
 
-            BLE.writeWithoutResponse(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_NEW_IMAGE_TU_CONTENT.toString(), bufView.buffer).then(
+            this.ble.writeWithoutResponse(this.mNode.id, OtaService.OTA_SERVICE.toString(), OtaChars.DFU_OTA_NEW_IMAGE_TU_CONTENT.toString(), bufView.buffer).then(
                 (result)=> {
                     // console.log("Send seq " + seqToSend + " result" + result + "and send next");
                     if (((seqToSend + 1) % this.mGroupSequenceWaitFeedback) != 0) {

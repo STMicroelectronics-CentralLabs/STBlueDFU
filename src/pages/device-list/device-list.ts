@@ -187,7 +187,7 @@ export class DeviceListPage {
 								item.characteristics = device.characteristics;
 								//console.log("CHAR:" + JSON.stringify(device.characteristics));
 								if(DFU_OTAService.isServiceAvailable(item)){
-									item.otaService = new DFU_OTAService(item);
+									item.otaService = new DFU_OTAService(item,this.platform);
 									console.log("Ota available!");
 								}else {
 									BLE.disconnect(item.id);
