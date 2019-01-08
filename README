@@ -1,8 +1,10 @@
 HOW TO BUILD IT
 - Install nodejs and npm 
-- install ionic (4.2.1) and cordova (8.2.1)
+- install ionic (4.2.1) and cordova (8.1.2)
 - run npm install from the project root to install the dependecy
-- run ionic cordova android build to generate the android project
+- run ionic cordova build android or cordova build ios
+- this build command should install you the ionic app script, if it doesn't found it run: npm install @ionic/app-scripts@0.0.45
+- the build will fail, saing that the version are not matching, please run the forceModuleVersion.sh to change the module version to the request one
 
 LICENSE
 Copyright (c) 2018, 2018 STMicroelectronics
