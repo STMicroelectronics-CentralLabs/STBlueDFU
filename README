@@ -1,3 +1,9 @@
+WARNING!!! 
+This application is now deprecated and its functionality is now integrated into ST BLE Sensor app 
+iOS --> https://github.com/STMicroelectronics/STBlueMS_iOS
+Android --> https://github.com/STMicroelectronics/STBlueMS_Android
+WARNING!!!
+
 HOW TO BUILD IT
 - Install nodejs and npm 
 - install ionic (4.2.1) and cordova (8.1.2)
